@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 
 # title_temp="""
 # <div style="background-color:tomato;padding:10px">
-# <h2 style="color:white;text-align:center;">Streamlit Music Classification App </h2>
+# <h2 style="color:white;text-align:center;"> Name/h2>
 # </div>
 # """ 
 # st.markdown(title_temp, unsafe_allow_html = True)
