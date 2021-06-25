@@ -43,7 +43,8 @@ Using Random Forest Classifier algorithm, programmed feature selection model in 
     - DOLLAREL (Total Electricity cost, in whole dollars)
     
 4. Modeling 
-
+-LightGBM and XGBoost
+-Hyperparameter tuning with Optuna
 5. Training and Testing
 Predicted the electricity bill amount for the next month of a given residential housing unit based on the 24 factors that affect electricity consumption.
 
@@ -52,3 +53,6 @@ To evaluate the efficiency of the model, MAE (mean absolute error) and RMSE (roo
 
 Data set obtained from:
 https://catalog.data.gov/dataset/residential-energy-consumption-survey-recs-files-energy-consumption-2009#topic=energy_navigation
+
+# Streamlit App
+Link : https://electricity-bill-prediction.herokuapp.com/
