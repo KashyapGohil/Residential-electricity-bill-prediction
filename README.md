@@ -16,8 +16,10 @@ Factored out the possible attributes that affect only the electricity consumptio
 3. Feature Selection
 Using Random Forest Classifier algorithm, programmed feature selection model in R. 190 possible input factors were reduced to 24 specific inputs using feature selection after 100 iterations. The feature importance chart is also plotted. The 24 specific inputs to the final learning model are as follows:
     - TYPEHUQ (Type of Housing Unit)
-    - HDD30YR (Heating degree days, 30-year average 1981-2010, base 65F)
-    - CDD30YR (Cooling degree days, 30-year average 1981-2010, base 65F)
+    - HDD30YR Heating degree days (HDD) are a measure of how cold the temperature was on a given day or  during a period of days. For example, a day with a mean temperature of 40°F has 25 HDD. Two such cold days in a row have a total of 50 HDD for the two-day period.
+    (Heating degree days, 30-year average 1981-2010, base 65F)
+    - CDD30YR Cooling degree days (CDD) are a measure of how hot the temperature was on a given day or during a period of days. A day with a mean temperature of 80°F has 15 CDD. If the next day has a mean temperature of 83°F, it has 18 CDD. The total CDD for the two days is 33 CDD.
+    (Cooling degree days, 30-year average 1981-2010, base 65F)
     - BEDROOMS (Number of bedrooms)
     - NCOMBATH (Number of full bathrooms)
     - TOTROOMS (Total number of rooms in the housing unit)
